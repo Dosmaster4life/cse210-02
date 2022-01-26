@@ -18,8 +18,10 @@ namespace Game
             Console.Write("The card is " + "Function to get card here" + "\n Higher or Lower? [h/l]");
             string getResponse = Console.ReadLine();
            if(getResponse == "h") {
-                 
+
            } else if(getResponse == "l") {
+
+           }else { // if user chooses somthing other than h or l
 
            }
         }
