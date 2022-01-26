@@ -1,4 +1,7 @@
-﻿class Program
+﻿using Game;
+
+namespace Game;
+class Program
 {
     static void Main(string[] args)
         {
