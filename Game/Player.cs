@@ -22,6 +22,7 @@ public void makeGuess(string getResponse) {
             }else if(getResponse == "l") {
                 highOrLow = false;
             }
+                
 
 }
 public int lifePointsCounter() {

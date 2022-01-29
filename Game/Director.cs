@@ -39,10 +39,12 @@ namespace Game
 
             }
         }
-        public string getInput(int displayedNumber) {
+        public static string getInput(int displayedNumber) {
             Console.Write("The card is " + displayedNumber + "\n Higher or Lower? [h/l]");
             string getResponse = Console.ReadLine();
-            if(getResponse == null) {
+            if(getResponse != "e" && getResponse != "h" && getResponse != "l") {
+                System.Console.WriteLine("Type 'h' if you want to guess High \nor 'l' for Low \nand 'e' to end the game.\n");
+                getInput(displayedNumber);
                 getResponse = "";
             }
             return getResponse;
