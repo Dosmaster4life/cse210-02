@@ -8,25 +8,11 @@
     "net6.0": []
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "C:\\Users\\roran\\.nuget\\packages\\": {}
-=======
     "C:\\Users\\kriss\\.nuget\\packages\\": {}
->>>>>>> dfd81bf74753e88a67c840d8375f4d50670ecac7
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\roran\\Documents\\Winter 2022\\CES 210\\New folder\\cse210-02\\cse210-02.csproj",
-      "projectName": "cse210-02",
-      "projectPath": "C:\\Users\\roran\\Documents\\Winter 2022\\CES 210\\New folder\\cse210-02\\cse210-02.csproj",
-      "packagesPath": "C:\\Users\\roran\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\roran\\Documents\\Winter 2022\\CES 210\\New folder\\cse210-02\\obj\\",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\roran\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
       "projectUniqueName": "C:\\Users\\kriss\\Documents\\BYUI Documents\\Winter_2022\\Programing_with_classes\\cse210-01\\Group6_Projects\\first_team_project\\cse210-02\\cse210-02.csproj",
       "projectName": "cse210-02",
       "projectPath": "C:\\Users\\kriss\\Documents\\BYUI Documents\\Winter_2022\\Programing_with_classes\\cse210-01\\Group6_Projects\\first_team_project\\cse210-02\\cse210-02.csproj",
@@ -35,7 +21,6 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kriss\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> dfd81bf74753e88a67c840d8375f4d50670ecac7
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -76,5 +61,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\kriss\\Documents\\BYUI Documents\\Winter_2022\\Programing_with_classes\\cse210-01\\Group6_Projects\\first_team_project\\cse210-02\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

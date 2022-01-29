@@ -19,30 +19,44 @@ namespace Game
                 hiddenCard.createCardNumber();
 
                player.makeGuess(getInput(displayedCard.currentCard));
-                printConsole(hiddenCard.currentCard);
-               if(displayedCard.currentCard < hiddenCard.currentCard) {
-                   if(player.highOrLow) {
-                       player.increasePoints();
-                   }else {
-                       player.decreasePoints();
-                   }
-               }else if(displayedCard.currentCard > hiddenCard.currentCard) {
-                        if(!player.highOrLow) {
-                       player.increasePoints();
-                   }else {
-                       player.decreasePoints();
-                   }
-               }else {
-                   Console.WriteLine("You tied"); // make this message fancy later
+               if (playingNow){
 
+               
+                    printConsole(hiddenCard.currentCard);
+                if(displayedCard.currentCard < hiddenCard.currentCard) {
+                    if(player.highOrLow) {
+                        player.increasePoints();
+                    }else {
+                        player.decreasePoints();
+                    }
+                }else if(displayedCard.currentCard > hiddenCard.currentCard) {
+                            if(!player.highOrLow) {
+                        player.increasePoints();
+                    }else {
+                        player.decreasePoints();
+                    }
+                }else {
+                    Console.WriteLine("You tied"); // make this message fancy later
+
+                }
+                    printScore(player.lifePoints);
+               }else{
+                   System.Console.WriteLine($"Game Over! \n Your final score was: {player.lifePoints}");
+                   
                }
-                printScore(player.lifePoints);
             }
         }
         public string getInput(int displayedNumber)
         {
-            Console.Write("The card is " + displayedNumber + "\n Higher or Lower? [h/l]");
-            string getResponse = Console.ReadLine();
+            string getResponse = "";
+            Console.Write("The card is " + displayedNumber + "\nHigher or Lower? [h/l] \n(press 'e' at anytime to exit)");
+            try {
+            getResponse = Console.ReadLine();
+            }
+            catch(Exception e) {
+               getResponse = "";
+            }
+            
             if(getResponse != "e" && getResponse != "h" && getResponse != "l") {
                 System.Console.WriteLine("Type 'h' if you want to guess High \nor 'l' for Low \nand 'e' to end the game.\n");
                 getInput(displayedNumber);
@@ -53,12 +67,12 @@ namespace Game
 
         public void printConsole (int currentCardNumber)
         {
-            Console.Write($"Next card was: {currentCardNumber}\n");
+            Console.Write($"\nNext card was: {currentCardNumber}\n");
         }
 
         public void printScore (int score)
         {
-            Console.WriteLine($"Your current score is: {score}");
+            Console.WriteLine($"Your current score is: {score}\n");
         }
     }
 }
