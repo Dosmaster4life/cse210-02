@@ -21,6 +21,7 @@ D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\cse210-02\obj\Debug
 D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\cse210-02\obj\Debug\net6.0\cse210-02.dll
 D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\cse210-02\obj\Debug\net6.0\ref\cse210-02.dll
 D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\cse210-02\obj\Debug\net6.0\cse210-02.pdb
+<<<<<<< HEAD
 C:\Users\roran\Documents\Winter 2022\CES 210\New folder\cse210-02\bin\Debug\net6.0\cse210-02.exe
 C:\Users\roran\Documents\Winter 2022\CES 210\New folder\cse210-02\bin\Debug\net6.0\cse210-02.deps.json
 C:\Users\roran\Documents\Winter 2022\CES 210\New folder\cse210-02\bin\Debug\net6.0\cse210-02.runtimeconfig.json
@@ -36,3 +37,20 @@ C:\Users\roran\Documents\Winter 2022\CES 210\New folder\cse210-02\obj\Debug\net6
 C:\Users\roran\Documents\Winter 2022\CES 210\New folder\cse210-02\obj\Debug\net6.0\ref\cse210-02.dll
 C:\Users\roran\Documents\Winter 2022\CES 210\New folder\cse210-02\obj\Debug\net6.0\cse210-02.pdb
 C:\Users\roran\Documents\Winter 2022\CES 210\New folder\cse210-02\obj\Debug\net6.0\cse210-02.genruntimeconfig.cache
+=======
+C:\Users\kriss\Documents\BYUI Documents\Winter_2022\Programing_with_classes\cse210-01\Group6_Projects\first_team_project\cse210-02\bin\Debug\net6.0\cse210-02.exe
+C:\Users\kriss\Documents\BYUI Documents\Winter_2022\Programing_with_classes\cse210-01\Group6_Projects\first_team_project\cse210-02\bin\Debug\net6.0\cse210-02.deps.json
+C:\Users\kriss\Documents\BYUI Documents\Winter_2022\Programing_with_classes\cse210-01\Group6_Projects\first_team_project\cse210-02\bin\Debug\net6.0\cse210-02.runtimeconfig.json
+C:\Users\kriss\Documents\BYUI Documents\Winter_2022\Programing_with_classes\cse210-01\Group6_Projects\first_team_project\cse210-02\bin\Debug\net6.0\cse210-02.dll
+C:\Users\kriss\Documents\BYUI Documents\Winter_2022\Programing_with_classes\cse210-01\Group6_Projects\first_team_project\cse210-02\bin\Debug\net6.0\ref\cse210-02.dll
+C:\Users\kriss\Documents\BYUI Documents\Winter_2022\Programing_with_classes\cse210-01\Group6_Projects\first_team_project\cse210-02\bin\Debug\net6.0\cse210-02.pdb
+C:\Users\kriss\Documents\BYUI Documents\Winter_2022\Programing_with_classes\cse210-01\Group6_Projects\first_team_project\cse210-02\obj\Debug\net6.0\cse210-02.csproj.AssemblyReference.cache
+C:\Users\kriss\Documents\BYUI Documents\Winter_2022\Programing_with_classes\cse210-01\Group6_Projects\first_team_project\cse210-02\obj\Debug\net6.0\cse210-02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kriss\Documents\BYUI Documents\Winter_2022\Programing_with_classes\cse210-01\Group6_Projects\first_team_project\cse210-02\obj\Debug\net6.0\cse210-02.AssemblyInfoInputs.cache
+C:\Users\kriss\Documents\BYUI Documents\Winter_2022\Programing_with_classes\cse210-01\Group6_Projects\first_team_project\cse210-02\obj\Debug\net6.0\cse210-02.AssemblyInfo.cs
+C:\Users\kriss\Documents\BYUI Documents\Winter_2022\Programing_with_classes\cse210-01\Group6_Projects\first_team_project\cse210-02\obj\Debug\net6.0\cse210-02.csproj.CoreCompileInputs.cache
+C:\Users\kriss\Documents\BYUI Documents\Winter_2022\Programing_with_classes\cse210-01\Group6_Projects\first_team_project\cse210-02\obj\Debug\net6.0\cse210-02.dll
+C:\Users\kriss\Documents\BYUI Documents\Winter_2022\Programing_with_classes\cse210-01\Group6_Projects\first_team_project\cse210-02\obj\Debug\net6.0\ref\cse210-02.dll
+C:\Users\kriss\Documents\BYUI Documents\Winter_2022\Programing_with_classes\cse210-01\Group6_Projects\first_team_project\cse210-02\obj\Debug\net6.0\cse210-02.pdb
+C:\Users\kriss\Documents\BYUI Documents\Winter_2022\Programing_with_classes\cse210-01\Group6_Projects\first_team_project\cse210-02\obj\Debug\net6.0\cse210-02.genruntimeconfig.cache
+>>>>>>> dfd81bf74753e88a67c840d8375f4d50670ecac7

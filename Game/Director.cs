@@ -15,31 +15,32 @@ namespace Game
             {
                 Card displayedCard = new Card();
                 Card hiddenCard = new Card();
-                displayedCard.CreateCardNumber();
-                hiddenCard.CreateCardNumber();
+                displayedCard.createCardNumber();
+                hiddenCard.createCardNumber();
 
                player.makeGuess(getInput(displayedCard.currentCard));
-
-               if(displayedCard.currentCard > hiddenCard.currentCard) {
+                printConsole(hiddenCard.currentCard);
+               if(displayedCard.currentCard < hiddenCard.currentCard) {
                    if(player.highOrLow) {
                        player.increasePoints();
                    }else {
                        player.decreasePoints();
                    }
-               }else if(displayedCard.currentCard < hiddenCard.currentCard) {
+               }else if(displayedCard.currentCard > hiddenCard.currentCard) {
                         if(!player.highOrLow) {
                        player.increasePoints();
                    }else {
                        player.decreasePoints();
                    }
                }else {
-                   
+                   Console.WriteLine("You tied"); // make this message fancy later
 
                }
-
+                printScore(player.lifePoints);
             }
         }
-        public static string getInput(int displayedNumber) {
+        public string getInput(int displayedNumber)
+        {
             Console.Write("The card is " + displayedNumber + "\n Higher or Lower? [h/l]");
             string getResponse = Console.ReadLine();
             if(getResponse != "e" && getResponse != "h" && getResponse != "l") {
@@ -48,6 +49,16 @@ namespace Game
                 getResponse = "";
             }
             return getResponse;
+        }
+
+        public void printConsole (int currentCardNumber)
+        {
+            Console.Write($"Next card was: {currentCardNumber}\n");
+        }
+
+        public void printScore (int score)
+        {
+            Console.WriteLine($"Your current score is: {score}");
         }
     }
 }

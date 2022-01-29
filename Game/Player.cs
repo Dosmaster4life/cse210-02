@@ -11,7 +11,7 @@ public class Player {
 // create methed called "checkAnswer" that will take 'highLow' and 'curenntCard' to see if the user guess is high or low. 
 
 
-public int lifePoints;
+public int lifePoints = 300;
 
 public bool highOrLow = false;
 public void makeGuess(string getResponse) {
