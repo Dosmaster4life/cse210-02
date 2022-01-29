@@ -33,7 +33,7 @@ public void checkAnswer() {
 public void decreasePoints() {
     lifePoints -=  75;
 }
-public void IncreasePoints() {
+public void increasePoints() {
     lifePoints += 100;
 }
 
