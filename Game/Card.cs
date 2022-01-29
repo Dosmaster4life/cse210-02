@@ -9,7 +9,7 @@ public class Card {
     public int currentCard = 0;
     public void CreateCardNumber ()
     {
-        int currentCard = random.Next(1,14);
-        Console.Write($"Card is: {currentCard}");
+        currentCard = random.Next(1,14);
+       // Console.Write($"Card is: {currentCard}");
     }
 }
