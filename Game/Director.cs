@@ -15,8 +15,27 @@ namespace Game
             {
                 Card displayedCard = new Card();
                 Card hiddenCard = new Card();
+                displayedCard.CreateCardNumber();
+                hiddenCard.CreateCardNumber();
 
-               player.makeGuess(getInput(1));
+               player.makeGuess(getInput(displayedCard.currentCard));
+
+               if(displayedCard.currentCard > hiddenCard.currentCard) {
+                   if(player.highOrLow) {
+                       player.increasePoints();
+                   }else {
+                       player.decreasePoints();
+                   }
+               }else if(displayedCard.currentCard < hiddenCard.currentCard) {
+                        if(!player.highOrLow) {
+                       player.increasePoints();
+                   }else {
+                       player.decreasePoints();
+                   }
+               }else {
+                   
+
+               }
 
             }
         }
