@@ -27,9 +27,6 @@ public void makeGuess(string getResponse) {
 public int lifePointsCounter() {
     return this.lifePoints;
 }
-public void checkAnswer() {
-
-}
 public void decreasePoints() {
     lifePoints -=  75;
 }

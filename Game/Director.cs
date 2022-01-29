@@ -13,13 +13,34 @@ namespace Game
             Player player = new Player();
             while (playingNow) // Call methods and functions from here, infinite loop until PlayNow is false;
             {
-                Card card = new Card();
-               player.makeGuess(getInput());
+                Card displayedCard = new Card();
+                Card hiddenCard = new Card();
+                displayedCard.CreateCardNumber();
+                hiddenCard.CreateCardNumber();
+
+               player.makeGuess(getInput(displayedCard.currentCard));
+
+               if(displayedCard.currentCard > hiddenCard.currentCard) {
+                   if(player.highOrLow) {
+                       player.increasePoints();
+                   }else {
+                       player.decreasePoints();
+                   }
+               }else if(displayedCard.currentCard < hiddenCard.currentCard) {
+                        if(!player.highOrLow) {
+                       player.increasePoints();
+                   }else {
+                       player.decreasePoints();
+                   }
+               }else {
+                   
+
+               }
 
             }
         }
-        public string getInput() {
-            Console.Write("The card is " + "Function to get card here" + "\n Higher or Lower? [h/l]");
+        public string getInput(int displayedNumber) {
+            Console.Write("The card is " + displayedNumber + "\n Higher or Lower? [h/l]");
             string getResponse = Console.ReadLine();
             if(getResponse == null) {
                 getResponse = "";

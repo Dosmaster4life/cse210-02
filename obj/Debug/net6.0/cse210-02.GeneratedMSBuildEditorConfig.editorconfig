@@ -7,4 +7,8 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = cse210_02
-build_property.ProjectDir = D:\Dylan (User)\Documents\School\CSE210\CSE210-Projects\team\cse210-02\
+<<<<<<< HEAD
+build_property.ProjectDir = c:\Users\kriss\Documents\BYUI Documents\Winter_2022\Programing_with_classes\cse210-01\Group6_Projects\first_team_project\cse210-02\
+=======
+build_property.ProjectDir = C:\Users\jhatc\Documents\c#\cse210-02\
+>>>>>>> aef1aeae1b76f3fa2bdd88dbcdbfaa94ac67e609
