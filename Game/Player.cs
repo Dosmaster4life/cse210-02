@@ -12,6 +12,7 @@ public class Player {
 
 
 public int lifePoints;
+
 public bool highOrLow = false;
 public void makeGuess(string getResponse) {
     if(getResponse == "e") {
@@ -27,7 +28,13 @@ public int lifePointsCounter() {
     return this.lifePoints;
 }
 public void checkAnswer() {
-    
+
+}
+public void decreasePoints() {
+    lifePoints -=  75;
+}
+public void IncreasePoints() {
+    lifePoints += 100;
 }
 
 

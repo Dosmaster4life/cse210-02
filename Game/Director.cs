@@ -13,6 +13,7 @@ namespace Game
             Player player = new Player();
             while (playingNow) // Call methods and functions from here, infinite loop until PlayNow is false;
             {
+                Card card = new Card();
                player.makeGuess(getInput());
 
             }
@@ -20,6 +21,9 @@ namespace Game
         public string getInput() {
             Console.Write("The card is " + "Function to get card here" + "\n Higher or Lower? [h/l]");
             string getResponse = Console.ReadLine();
+            if(getResponse == null) {
+                getResponse = "";
+            }
             return getResponse;
         }
     }
