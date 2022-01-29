@@ -8,31 +8,25 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\jhatc\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\kriss\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jhatc\\Documents\\c#\\cse210-02\\cse210-02.csproj",
+      "projectUniqueName": "C:\\Users\\kriss\\Documents\\BYUI Documents\\Winter_2022\\Programing_with_classes\\cse210-01\\Group6_Projects\\first_team_project\\cse210-02\\cse210-02.csproj",
       "projectName": "cse210-02",
-      "projectPath": "C:\\Users\\jhatc\\Documents\\c#\\cse210-02\\cse210-02.csproj",
-      "packagesPath": "C:\\Users\\jhatc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jhatc\\Documents\\c#\\cse210-02\\obj\\",
+      "projectPath": "C:\\Users\\kriss\\Documents\\BYUI Documents\\Winter_2022\\Programing_with_classes\\cse210-01\\Group6_Projects\\first_team_project\\cse210-02\\cse210-02.csproj",
+      "packagesPath": "C:\\Users\\kriss\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kriss\\Documents\\BYUI Documents\\Winter_2022\\Programing_with_classes\\cse210-01\\Group6_Projects\\first_team_project\\cse210-02\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\jhatc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\kriss\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {

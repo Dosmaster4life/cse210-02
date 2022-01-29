@@ -9,7 +9,7 @@ public class Card {
     
     // create methed called "createCardNumber" that will create a number for the varible called 'currentCard' this will also move the number that was in 
     public int currentCard = 0;
-    public void CreateCardNumber ()
+    public void createCardNumber ()
     {
         currentCard = random.Next(1,14);
        // Console.Write($"Card is: {currentCard}");
