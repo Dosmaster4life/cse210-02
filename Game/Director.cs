@@ -10,11 +10,9 @@ namespace Game
         
                public void StartGame()
         {
+            Player player = new Player();
             while (playingNow) // Call methods and functions from here, infinite loop until PlayNow is false;
             {
-              
-               
-               Player player = new Player();
                player.makeGuess(getInput());
 
             }
